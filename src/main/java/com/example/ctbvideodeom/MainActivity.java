@@ -39,6 +39,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             return;
         }
         Intent intent = new Intent("ct_intent_MOTIVATE_VIDEO");
+        // 运营分配
+        intent.putExtra("ad_position_id", "455365");
         v.getContext().startActivity(intent);
     }
 
